@@ -1,10 +1,9 @@
 var http = require("http");
-var router = require("./router.js");
 
 exports.startup = function startup(port)
 {
 	http.createServer(handleRequest).listen(port);
-	console.log("Hello! Server listening on port " + port);
+	console.log("Server listening on port " + port);
 }
 
 function handleRequest(request, response)

@@ -1,4 +1,4 @@
-var server = require('./server.js');
+var server = require('./app/server/server.js');
 
 var SERVER_PORT = "8888";
 
